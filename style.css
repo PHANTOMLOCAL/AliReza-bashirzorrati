@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    background-image: url(/image/banner.jpg);
+    background-image: url(banner.jpg);
     background-size: cover;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 /* ------ profile header section */
 .profile-header {
-    background: url('/image/banner.jpg') center;
+    background: url('banner.jpg') center;
     background-size: cover;
     margin: 10px;
     border-radius: 30px 30px 0 0;
@@ -69,7 +69,7 @@ body {
         .profile-image {
             width: 150px;
             height: 150px;
-            background: url('/image/profile-image.jpg') center;
+            background: url('profile-image.jpg') center;
             background-size: cover;
             border-radius: 50%;
             border: 10px solid var(--primary-bg);
@@ -194,7 +194,7 @@ body {
         }
             .post-cover {
                 position: relative;
-                background: url('/images/last-post.jpg') center;
+                background: url('last-post.jpg') center;
                 background-size: cover;
                 border-radius: 5px;
             }
